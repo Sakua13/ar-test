@@ -13,7 +13,7 @@ const createPlaces = ({ latitude, longitude }) => [
   
   const models = [
     {
-      url: '#asset-eevee',
+      url: '#asset-asset',
       scale: ['0.5', '0.5', '0.5'],
     },
   ];
@@ -60,6 +60,5 @@ const createPlaces = ({ latitude, longitude }) => [
       errorCallback
     );
   };
-　　document.write("表示したい文字列");
   
   window.onload = main;
