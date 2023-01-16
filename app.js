@@ -60,5 +60,6 @@ const createPlaces = ({ latitude, longitude }) => [
       errorCallback
     );
   };
+　　document.write("表示したい文字列");
   
   window.onload = main;
