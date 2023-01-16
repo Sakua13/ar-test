@@ -1,3 +1,4 @@
+console.log("hello worle")
 const createPlaces = ({ latitude, longitude }) => [
     ['p1', -1, -1],
     ['p2', -1,  1],
