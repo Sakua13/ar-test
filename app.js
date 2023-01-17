@@ -22,7 +22,7 @@ const createPlaces = ({ latitude, longitude }) => [
   
   const models = [
     {
-      url: setObject(),
+      url: './assets/ar-cube.glb',
       scale: ['0.5', '0.5', '0.5'],
     },
   ];
