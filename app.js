@@ -14,7 +14,7 @@ const createPlaces = ({ latitude, longitude }) => [
   
   const models = [
     {
-      url: '#asset-asset',
+      url: "./assets/asset.png",
       scale: ['0.5', '0.5', '0.5'],
     },
   ];
