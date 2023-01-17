@@ -14,7 +14,7 @@ const createPlaces = ({ latitude, longitude }) => [
   
   const models = [
     {
-      url: "./assets/asset.png",
+      url: '#asset-ar-cube',
       scale: ['0.5', '0.5', '0.5'],
     },
   ];
