@@ -12,9 +12,17 @@ const createPlaces = ({ latitude, longitude }) => [
     },
   }));
   
+  const setObject = () => {
+  const geometry = new THREE.BoxGeometry(1, 1, 1);
+  const material = new THREE.MeshNormalMaterial();
+  object = new THREE.Mesh(geometry, material);
+  object.position.set(0, 0, 0);
+  scene.add(object);
+};
+  
   const models = [
     {
-      url: '#asset-ar-cube',
+      url: setObject(),
       scale: ['0.5', '0.5', '0.5'],
     },
   ];
